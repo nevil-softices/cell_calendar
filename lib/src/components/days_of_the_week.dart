@@ -25,7 +25,7 @@ class DaysOfTheWeek extends StatelessWidget {
       child: Text(
         _DaysOfTheWeek[index],
         textAlign: TextAlign.center,
-        style: GoogleFonts.poppins(fontWeight: FontWeight.w500, fontSize: 12,color: Color(0xff252525)),
+        style: GoogleFonts.poppins(fontWeight: FontWeight.w500, fontSize: 12,color: Color(0xff393E46)),
       ),
     );
   }
