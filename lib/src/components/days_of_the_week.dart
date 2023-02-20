@@ -15,10 +15,9 @@ const List<String> _DaysOfTheWeek = [
 
 /// Show the row of text from [_DaysOfTheWeek]
 class DaysOfTheWeek extends StatelessWidget {
-  DaysOfTheWeek(this.daysOfTheWeekBuilder,this.labelColor);
+  DaysOfTheWeek(this.daysOfTheWeekBuilder);
 
   final DaysBuilder? daysOfTheWeekBuilder;
-  final  Color? labelColor;
 
   Widget defaultLabels(index) {
     return Padding(

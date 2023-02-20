@@ -187,7 +187,7 @@ class _CalendarPage extends StatelessWidget {
     final days = _getCurrentDays(visiblePageDate);
     return Column(
       children: [
-        DaysOfTheWeek(daysOfTheWeekBuilder,Colors.black),
+        DaysOfTheWeek(daysOfTheWeekBuilder),
         Expanded(
           child: Column(
             mainAxisSize: MainAxisSize.min,
