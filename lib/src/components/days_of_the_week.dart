@@ -30,6 +30,8 @@ class DaysOfTheWeek extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: List.generate(
         7,
         (index) {
