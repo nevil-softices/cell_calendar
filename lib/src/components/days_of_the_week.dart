@@ -9,7 +9,7 @@ const List<String> _DaysOfTheWeek = [
   'Tue',
   'Wed',
   'Thu',
-  'Fry',
+  'Fri',
   'Sat'
 ];
 
@@ -20,13 +20,10 @@ class DaysOfTheWeek extends StatelessWidget {
   final DaysBuilder? daysOfTheWeekBuilder;
 
   Widget defaultLabels(index) {
-    return Padding(
-      padding: EdgeInsets.only(bottom: 8),
-      child: Text(
-        _DaysOfTheWeek[index],
-        textAlign: TextAlign.center,
-        style: GoogleFonts.poppins(fontWeight: FontWeight.w500, fontSize: 12,color: Color(0xff393E46)),
-      ),
+    return Text(
+      _DaysOfTheWeek[index],
+      textAlign: TextAlign.center,
+      style: GoogleFonts.poppins(fontWeight: FontWeight.w500, fontSize: 12,color: Color(0xff393E46)),
     );
   }
 
