@@ -37,6 +37,8 @@ class DaysOfTheWeek extends StatelessWidget {
         (index) {
           return Expanded(
             child: Container(
+              height: 24,
+                width: 52,
                 color: index==0 || index == 6 ? Color(0xffD1D1D6) : Colors.white,
                 child: daysOfTheWeekBuilder?.call(index) ?? defaultLabels(index)),
           );
