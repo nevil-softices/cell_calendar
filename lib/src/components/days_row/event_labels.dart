@@ -105,11 +105,14 @@ class _EventLabel extends StatelessWidget {
       margin: EdgeInsets.only(right: 4, bottom: 3),
       height: 13,
       width: double.infinity,
-      child: Text(
-        event.eventName,
-        style: event.eventTextStyle,
-        textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
+      child: Padding(
+        padding: const EdgeInsets.only(top: 8),
+        child: Text(
+          event.eventName,
+          style: event.eventTextStyle,
+          textAlign: TextAlign.center,
+          overflow: TextOverflow.ellipsis,
+        ),
       ),
     );
   }
