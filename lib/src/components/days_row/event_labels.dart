@@ -102,7 +102,7 @@ class _EventLabel extends StatelessWidget {
           color: event.eventBackgroundColor,
         borderRadius: BorderRadius.circular(2)
       ),
-      margin: EdgeInsets.only(right: 4, bottom: 3,top: event.eventHight??8),
+      margin: EdgeInsets.only(right: 4, bottom: 3,top: event.eventSpace??8),
       height: 13,
       width: double.infinity,
       child: Text(

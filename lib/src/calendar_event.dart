@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 ///
 /// [eventName] and [eventDate] is essential to show in [CellCalendar]
 class CalendarEvent {
-  CalendarEvent(this.eventHight, {
+  CalendarEvent( {
     required this.eventName,
     required this.eventDate,
     required this.eventTextStyle,
     this.eventBackgroundColor = Colors.blue,
     this.eventID,
+    this.eventSpace,
   });
 
   final String eventName;
@@ -17,5 +18,5 @@ class CalendarEvent {
   final DateTime eventDate;
   final String? eventID;
   final Color eventBackgroundColor;
-  final double? eventHight;
+  final double? eventSpace;
 }
