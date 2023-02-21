@@ -4,7 +4,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'calendar_event.dart';
 import 'components/days_of_the_week.dart';
 import 'components/days_row/days_row.dart';
-import 'components/month_year_label.dart';
 import 'controllers/cell_calendar_page_controller.dart';
 import 'date_extension.dart';
 
@@ -107,7 +106,6 @@ class _CalendarPageView extends HookConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        MonthYearLabel(monthYearLabelBuilder),
         Expanded(
           child: PageView.builder(
             controller:
